@@ -1,0 +1,42 @@
+#Task 1 — Data Cleaning & Preprocessing (Mall Customer Segmentation)
+Objective
+
+Clean a raw dataset by handling missing values, duplicates, formatting issues, and data types.
+
+🛠 Tools Used
+
+Python
+
+Pandas
+
+VS Code
+
+🔧 Steps Performed
+
+Loaded dataset using pandas
+
+Renamed columns to lowercase_with_underscores
+
+Checked missing values using isnull()
+
+Filled missing numeric values using median
+
+Removed duplicate rows
+
+Standardized text fields (Gender)
+
+Corrected data types
+
+Exported cleaned CSV file
+
+ Files Included
+
+Mall_Customers.csv — Raw dataset
+
+Mall_Customers_Cleaned.csv — Cleaned dataset
+
+clean_data.py — Cleaning script
+
+ Output
+
+Cleaned file saved as Mall_Customers_Cleaned.csv
